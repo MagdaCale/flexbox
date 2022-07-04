@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgba(0,0,0,.8);
+    background-color: #D9E8E5;
+}
+a {
+    text-decoration: none;
+}
+/* ----- heaqder ----- */
+header {
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    background-color: white;
+}
+.logo {
+margin: 1rem 1rem 1rem 3rem;
+}
+/* ----- links ----- */
+nav {
+    display: flex;
+    margin: 0 5rem;
+    justify-content: space-between;
+}
+li {
+    padding: 0.6rem;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+.login {
+    margin: auto;
+}
+
+
+main {
+    display: flex;
+    padding: 10rem;
+    flex-direction: column;
+}
+h2 {
+    padding-bottom: 1.5rem ;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bilder {
+    flex-wrap: wrap;
+}
+.preis li {
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.preis {
+    display: flex;
+    flex-direction: column;
+}
